@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Орел и Решка</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <div class="wrapper" id="content">
+            <h2 id="h2_h2">Симулятор "Орел и Решка"</h2>
+            <div class="selectCoinDiv" id="selectCoinDiv">
+                <img src="img/rub.png" width="140" height="140" alt="Решка" id="coin_front" class="coinImg">
+                <img src="img/eagle.png" width="140" height="140" alt="Орел" id="coin_back" class="coinImg">
+                <img src="img/rib.jpg" width="140" height="140" alt="Ребро" id="coin_rib" class="coinImg rib">
+            </div>
+            <div class="input" id="moneyRandomButton" onclick="setImageToTimeInterval()" tabindex="0">Подбросить монету</div>
+            <p class="result" id="result"><b>Результат:</b></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
